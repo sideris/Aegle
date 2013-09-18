@@ -1,0 +1,341 @@
+body {
+width:100%;
+margin: 0 auto;
+text-align:center;
+height: 100%;
+background-color: white; 
+font-family:tahoma,verdana,arial,sans-serif;
+}
+/*start header*/
+
+#header{
+width:100%;
+height: 90px;
+background-color:#90ade6;
+}
+
+
+#logo{
+float:left;
+height:90px;
+}
+
+#sign button{
+clear:both;
+width:60px;
+height:30px;
+}
+
+#sign{
+float:right;
+height:90px;
+}	
+/*end header*/
+
+/*start index*/
+#message{
+background-color:#acc2eb;
+}
+#ind_cont{
+background-image:url(images/as.jpg);
+background-repeat:repeat;
+}
+
+/*end index*/
+
+
+/*start user left*/
+#left{
+margin-top:10px;
+border:1px solid #CBC6C6;
+height:1270px;
+margin-left:30px;
+width:230px;
+background-color: #EAEAEA;
+}
+#pic{
+height: 155px;
+width: 155px;
+margin:0 auto;
+margin-top:30px;
+}
+#info{
+border:1px solid #CBC6C6;
+margin:0 auto;
+width:210px;
+margin-top:40px;
+height:200px;
+}
+#info2{
+border:1px solid #CBC6C6;
+margin:0 auto;
+width:210px;
+height:350px;
+}
+#l_content{
+border:1px solid #CBC6C6;
+margin:0 auto;
+width:210px;
+margin-top:10px;
+height:475px;
+margin-bottom:10px;
+}
+/*end left*/
+
+
+
+/*start user center div*/
+#center_div{
+height:1300px;
+width:900px;
+margin-left:30px;
+}
+#au{
+height:160px;
+width:100%;
+}
+#navigation{
+width:100%;
+height:50px;
+}
+table.nav{
+float:left;
+width:350px;
+height:48px;
+border-collapse:collapse;
+margin-left:1px;
+}
+
+
+#center_cont:hover{
+background-color: #F0F0F0;
+}
+#center_cont{
+border-right:1px solid gray;
+border-left:1px solid gray;
+margin:0 auto;
+height:1070px;
+width:100%;
+background-color: #FAFAFA;
+}
+/*end center div*/
+
+
+/*start footer*/
+
+#footer{
+border-top: double 2px #ccc;
+margin-top:10px;
+height:70px;
+width:95%;
+float:left;
+font-size:16px;
+color:#666666;
+text-align:left;
+padding-top:20px;
+margin-left:30px;
+}
+#footer_r a:hover{
+color:#1A6AA7;
+}
+#footer_r a:link , #footer_r a:visited{
+color:#3387C8;
+padding-right:10px;
+}
+#copy{
+margin-left:50px;
+}
+#footer_r{
+float:left;
+height:30px;
+margin-left:50px;
+}
+
+
+/*end footer*/
+
+/*settings*/
+#settings2{
+
+}
+#settings2.form label{
+
+display:block;
+padding-top:6px;
+width:210px;
+font-weight:bold;
+font-size:14px;
+text-align:right;
+}
+#settings2.form input:hover{
+font-size:12px;
+border:solid 1px #676f77;
+width:150px;
+}
+#settings2.form input{
+width:150px;
+font-size:12px;
+border:solid 1px #aacfe4;
+}
+#settings2.form select{
+font-size:12px;
+border:solid 1px #aacfe4;
+}
+
+
+
+#settings1{
+margin:0 auto;
+width:500px
+}
+#settings1.form label{
+float:left;
+display:block;
+padding-top:6px;
+width:210px;
+font-weight:bold;
+font-size:14px;
+text-align:right;
+}
+#settings1.form input:hover{
+font-size:12px;
+border:solid 1px #676f77;
+width:150px;
+}
+#settings1.form input{
+float:left;
+margin:2px 0 20px 10px;
+padding:4px 2px;
+width:150px;
+font-size:12px;
+border:solid 1px #aacfe4;
+}
+#settings1.form select{
+float:left;
+margin:2px 0 20px 10px;
+padding:2px 2px;
+font-size:12px;
+border:solid 1px #aacfe4;
+}
+#navigation button{
+margin:0px; 
+padding:0px;
+border:0px;
+text-align:center;
+background-color:#213357;
+color:#dce1ea;
+border:2px solid #0000;
+height:40px;
+width:100px;
+cursor:pointer;
+}
+
+/*generifics*/
+font{
+font-family:"Times New Roman", Times, serif;}
+button{
+margin:0px; 
+padding:0px;
+border:0px;
+text-align:center;
+background-color:#213357;
+color:#dce1ea;
+border:2px solid #0000;
+height:25px;
+width:60px;
+cursor:pointer;
+}
+img{
+cursor: pointer;
+border:0px;
+}
+.form input:hover{
+font-size:12px;
+border:solid 1px #676f77;
+
+}
+.form input{
+font-size:12px;
+border:solid 1px #aacfe4;
+}
+
+p, h1, form{
+margin:0; 
+padding:0;
+border:0; 
+}
+.formsmall{
+font-size:11px;
+font-weight:normal;
+color:#666666;
+}
+.spacer{
+clear:both;
+height:1px;
+}
+.hand {
+cursor: pointer;
+} 
+a:link, a:visited{
+text-decoration:none;
+color:#226591;
+}
+a:hover, a:active {
+text-decoration:underline;
+}
+.suggestionsBox {
+		position: relative;
+		left: 30px;
+		margin: 10px 0px 0px 0px;
+		width: 200px;
+		background-color: #212427;
+		-moz-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		border: 2px solid #000;	
+		color: #fff;
+	}
+	
+.suggestionList {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+.suggestionList li {
+		
+		margin: 0px 0px 3px 0px;
+		padding: 3px;
+		cursor: pointer;
+	}
+	
+.suggestionList li:hover {
+		background-color: #659CD8;
+	}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
